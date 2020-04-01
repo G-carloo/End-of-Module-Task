@@ -1,136 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin</title>
 
-    <link href="Admin.css" rel="stylesheet" type="text/css">
+    <link href="Admin.css" rel="stylesheet" type="text/css" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8jAu+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min"integrity="sha384-Vkoo8x4CGs03+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9Muh0f23Q9IFjh" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@116.0/dist/umd/popper.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtnI3UksdQRVvoxMfooAo"crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj003uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl30g8ifwB6" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8jAu+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous"
+    />
+    <!-- you imported BS js twice, take out this first one -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min"
+      integrity="sha384-Vkoo8x4CGs03+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9Muh0f23Q9IFjh"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Move these script imports to the bottom of the page -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@116.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtnI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj003uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl30g8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
+    <!-- Never put buttons in the head section, and dont use this method of linking pages, use the <a> tag -->
     <button onclick="window.location.href = 'Homepge.html';">Home</button>
     <button onclick="window.location.href = 'NewsFeed.html';">News Feed</button>
     <button onclick="window.location.href = 'Users.html';">Users</button>
     <button onclick="window.location.href = 'Admin.html';">Admin</button>
-</head>
-<body>
-
-    <h1> Welcome to Admin</h1>
+  </head>
+  <body>
+    <h1>Welcome to Admin</h1>
     <div class="container">
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p>     
-            Nuraan Abdullah
-            NuraanAB@gmail.com
-            0876541557/0838567894
-            </p>
-        </div>
+      <!-- try not to use first letter capitals when naming classes -->
+      <div class="Item">
+        <!-- you will have to upload user profile images too -->
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Nuraan Abdullah NuraanAB@gmail.com 0876541557/0838567894
+        </p>
+      </div>
 
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p> 
-                Michael Dam
-                MichD@gmail.com
-                0876541557/0838567894 
-                
-            </p> 
-        </div>
-  
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre" 
-            width="110" height="140">
-            <p> 
-                Aadam Abrahams
-                AadamA@gmail.com
-                0876541557/0838567894 
-                 
-            </p>    
-        </div>    
+      <div class="Item">
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Michael Dam MichD@gmail.com 0876541557/0838567894
+        </p>
+      </div>
+
+      <div class="Item">
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Aadam Abrahams AadamA@gmail.com 0876541557/0838567894
+        </p>
+      </div>
     </div>
 
     <div class="container">
-        
-        <div class="Item">
-           <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-        width="110" height="140"> <p>
-                Noor Andrews 
-                NoorA@gmail.com
-                0876541557/0838567894 
-                
-            </p>
-        </div>         
-         
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p> 
-                Christopher Campbell 
-                Chriscam@gmail.com
-                0823465351/08274387894 
-                
-            </p> 
-        </div>    
-                
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p>
-                Edward Cisneros 
-                ed@gmail.com
-                0876541557/0838567894 
-                
-            </p>    
-        </div>
-    </div>                   
-    
-    <div class="container">
-       
-            <div class="Item">
-                <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-                width="110" height="140">
-                <p> 
-                Emma Paillex 
-                emma@gmail.com
-                0876541557/0838567894 
-                 
-            </p>
-        </div>
-       
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p> 
-                Marius Ciocirlan
-                marius@gmail.com
-                0876541557/0838567894 
-                 
-            </p> 
-        </div>
-        
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p> 
-                Brooke Cagle 
-                Brooke@gmail.com
-                0876541557/0838567894 
-                 
-            </p>    
-        </div>    
+      <div class="Item">
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Noor Andrews NoorA@gmail.com 0876541557/0838567894
+        </p>
+      </div>
+
+      <div class="Item">
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Christopher Campbell Chriscam@gmail.com 0823465351/08274387894
+        </p>
+      </div>
+
+      <div class="Item">
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Edward Cisneros ed@gmail.com 0876541557/0838567894
+        </p>
+      </div>
     </div>
 
-    
+    <div class="container">
+      <div class="Item">
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Emma Paillex emma@gmail.com 0876541557/0838567894
+        </p>
+      </div>
 
-<div class="footer">
-        <p>This is the Footer</p>
-</div>
-</body>
+      <div class="Item">
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Marius Ciocirlan marius@gmail.com 0876541557/0838567894
+        </p>
+      </div>
+
+      <div class="Item">
+        <img
+          src="Nuraan.jpg"
+          class="rounded"
+          alt="Cinque Terre"
+          width="110"
+          height="140"
+        />
+        <p>
+          Brooke Cagle Brooke@gmail.com 0876541557/0838567894
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>This is the Footer</p>
+    </div>
+  </body>
 </html>
