@@ -1,111 +1,20 @@
-body {
-  display: white;
-  text-align: start;
-  margin: 0%;
-}
+/*  Card styling*/
+.profile-image (
+  border-raduis: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+)
 
-<ul>
-<li><a>
-href=":default.asp">Home</a></li>
-<li><a href="Products.asp">Products</a></li>
-<li><a href="About us.asp">About us</a></li>
-</ul>
-
-ul {
-  display: block;
-  list-style-type: none;
-  margin: 10%;
-  padding: 10%;
-  background-color: darkslategray;
-  width: 100vw;
-}
-
-li {
-  display: inline-block;
-}
-
-li a {
-  display: block;
+/* Nav styles*/
+.active {
+  background-color: green;
   color: white;
-  text-align: start;
-  padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: black;
 }
-
-li a:hover
-li.active {
-  color:red;
-  background-color: white(165, 137, 165);
-}
-
+/* container styles*/
 .container {
-    display: flex;
-    padding: 80x;
-    align-self: flex-start;
-    height: 200px;
-    justify-content: space-around;
-    width: 100%;
-    flex-direction: row;
-    flex-flow: row;
-    margin: 5px;
-}
-
-div{
-  margin: 5px;
-  
-  height: 50px;
- 
-}
-
-
-a {
-  display: block;
-  text-decoration: none;
-  color: black;
-}
-
-.container div,
-a {
-  align-self: : flex-start;
-  margin: 100 auto;
-  position: relative;
-}
-
-.container div:hover {
-  background-color: rgb(13, 0, 128);
-}
-
-      .Item 
-      { 
-        height: 150px;
-        width: 350px;
-        background-color: rgb(54, 77, 75);
-        padding: 20px;
-        margin: 30px;
-        align-self: flex-start;
-      }
-
-
-.Itembottom {
+  display: flex;
+  justify-content: flex-start;
   align-self: flex-start;
-  height: 30px;
-  width: 350px;
-  background-color: rgb(54, 77, 75);
-  margin: 10px;
-  align-content: flex-end;
-  text-align: end;
-}
- 
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  height: 40px;
-  width: 100%;
-  background-color: yellow;
-  left: 0;
-}
-
-span {
-  color: yellow;
 }
