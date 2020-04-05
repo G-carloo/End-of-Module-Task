@@ -1,138 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
 
-    <link href="homepg.css" rel="stylesheet" type="text/css">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8jAu+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min"integrity="sha384-Vkoo8x4CGs03+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9Muh0f23Q9IFjh" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@116.0/dist/umd/popper.min.js"integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtnI3UksdQRVvoxMfooAo"crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj003uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl30g8ifwB6" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> 
 
-    <button onclick="window.location.href = 'Homepge.html';">Home</button>
-    <button onclick="window.location.href = 'NewsFeed.html';">News Feed</button>
-    <button onclick="window.location.href = 'Users.html';">Users</button>
-    <button onclick="window.location.href = 'Admin.html';">Admin</button>
+    <!-- My personal stylesheet at then end, to take preferance for styles-->
+    <link rel="stylesheet" href="homepg.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navbar stuff -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-</head>
-<body>
-    <h1>This is Home</h1>
-        
-    <div class="container">
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p>     
-            Nuraan Abdullah
-            NuraanAB@gmail.com
-            0876541557/0838567894
-            </p>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <li class="nav-item">
+                <a class="nav-link" href="Admin.html">Home</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="EmployeeForm.html">Add an Employee</a>
+
+            </li>
+            <li class="nav-item dropdown">
+              
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="EmployeeForm.html">Employee Form</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="Admin.html">Admin</a>
+                </li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item">
+                  <a class="nav-link" href="NewsFeed.html">News Feed</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Users.html">Users</a>
+                </li>
+              </div>
+            </li>
+              
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
         </div>
-
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p> 
-                Michael Dam
-                MichD@gmail.com
-                0876541557/0838567894 
-                
-            </p> 
-        </div>
-  
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre" 
-            width="110" height="140">
-            <p> 
-                Aadam Abrahams
-                AadamA@gmail.com
-                0876541557/0838567894 
-                 
-            </p>    
-        </div>    
+      </nav>
+      <!-- Main content stuff -->
+      <div class="row">
+        <main class="main">
+          <main class="card">1st place</main>
+          <main class="card">2nd place</main>
+          <main class="card">3rd place</main>
+          <main class="card">4th place</main>
+          <main class="card">5th place</main>
+        </main>
+      </div>
+      <!-- footer stuff -->
+      <footer class="footer">
+        footer
+      </footer>
     </div>
 
-    <div class="container">
-        
-        <div class="Item">
-           <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-        width="110" height="140"> <p>
-                Noor Andrews 
-                NoorA@gmail.com
-                0876541557/0838567894 
-                
-            </p>
-        </div>         
-         
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p> 
-                Christopher Campbell 
-                Chriscam@gmail.com
-                0823465351/08274387894 
-                
-            </p> 
-        </div>    
-                
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p>
-                Edward Cisneros 
-                ed@gmail.com
-                0876541557/0838567894 
-                
-            </p>    
-        </div>
-    </div>                   
-    
-    <div class="container">
-       
-            <div class="Item">
-                <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-                width="110" height="140">
-                <p> 
-                Emma Paillex 
-                emma@gmail.com
-                0876541557/0838567894 
-                 
-            </p>
-        </div>
-       
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p> 
-                Marius Ciocirlan
-                marius@gmail.com
-                0876541557/0838567894 
-                 
-            </p> 
-        </div>
-        
-        <div class="Item">
-            <img src="Nuraan.jpg" class="rounded" alt="Cinque Terre"
-            width="110" height="140">
-            <p> 
-                Brooke Cagle 
-                Brooke@gmail.com
-                0876541557/0838567894 
-                 
-            </p>    
-        </div>    
-    </div>
-
-    
-
-<div class="footer">
-        <p>This is the Footer</p>
-</div>
-
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
