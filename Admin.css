@@ -24,7 +24,11 @@
 .Landing-Page {
   background-size: cover;
   background-image: url(https://picsum.photos/700/900);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
   box-sizing: border-box;
+  opacity: 1;
 }
+
