@@ -7,10 +7,11 @@
     <title>Admin</title>
 
     <!--3rd party css libraries go first-->
+    
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-      integrity="sha384-1q8mTJOASx8jAu+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
 
@@ -26,16 +27,16 @@
       <!-- Links -->
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="Homepge.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">News Feed</a>
+          <a class="nav-link" href="NewsFeed.html">News Feed</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Admin</a>
+          <a class="nav-link" href="Admin.html">Admin</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Users</a>
+          <a class="nav-link" href="Users.html">Users</a>
         </li>
 
         <!-- Dropdown -->
@@ -46,159 +47,14 @@
             id="navbardrop"
             data-toggle="dropdown"
           >
-            Add an Employee
+            Add an Employee 
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Employee Form</a>
-            <h1>Employee Form</h1>
+           <a class="dropdown-item" href="EmployeeForm.html">Employee Form</a> 
+            
+            
 
-            <form action="/submit/">
-              <div class="form-group">
-                <label for="flname">First and Last Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="flname"
-                  placeholder="Enter First and Last name"
-                  name="flname"
-                  required
-                />
-                <br />
-                <br />
-                <label for="Email">Email</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Email"
-                  placeholder="Enter Email Address"
-                  name="Email"
-                  required
-                />
-                <br />
-                <br />
-                <label for="Cell/Landline Number">Cell/Landline Number</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Cell/Landline Number"
-                  placeholder="Enter Cell/Landline Number"
-                  name="Cell/Landline Number"
-                  required
-                />
-                <br />
-                <br />
-                <label for="Home Address">Home Address</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Home Address"
-                  placeholder="Enter Home Address"
-                  required
-                />
-                <br />
-                <br />
-                <label for="Next Of Kin">Next Of Kin</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Next Of Kin"
-                  placeholder="Enter Next Of Kin"
-                  name="Next Of Kin"
-                  required
-                />
-                <br />
-                <br />
-                <label for="Relationship with NOK">Relationship with NOK</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Relationship with NOK"
-                  placeholder="Enter Relationship with NOK"
-                  name="Relationship with NOK"
-                  required
-                />
-                <br />
-                <br />
-                <label for="NOK contact info"
-                  >NOK Cell/Landline Number and Email</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id=" NOK Cell/Landline Number and Email"
-                  placeholder="Enter NOK Cell/Landline Number and Email"
-                  name="NOK Cell/Landline Number and Email"
-                  required
-                />
-                <br />
-                <br />
-                <label for="Profile Photo">Profile Photo</label>
-                <input
-                  type="image"
-                  class="form-control"
-                  id="Profile Photo"
-                  placeholder="Add Profile Photo"
-                  name="Profile Photo"
-                  required
-                />
-                <br />
-                <br />
-                Submit <input type="submit" />
-              </div>
-            </form>
-            <br />
-            <br />
-            <br />
-            <form action="/submit/">
-              <div class="form-group">
-                <label for="uname">Username:</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="uname"
-                  placeholder="Enter username"
-                  name="uname"
-                  required
-                />
-                <br />
-                <br />
-                <label for="fname">Firstname</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="fname"
-                  placeholder="Enter Firstname"
-                  name="fname"
-                  required
-                />
-                <br />
-                <br />
-                <label for="lname">Lastname</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lname"
-                  placeholder="Enter Lastname"
-                  name="lname"
-                  required
-                />
-                <br />
-                <br />
-                <label for="Password">Password</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="passwrd"
-                  placeholder="Enter Password"
-                  name="password"
-                  required
-                />
-                <br />
-                <br />
-                Submit <input type="submit" />
-              </div>
-            </form>
-          </div>
+
         </li>
       </ul>
     </nav>
@@ -210,7 +66,7 @@
           <!--Here is a card -->
           <div class="card zdepth3">
             <!-- Card profile image-->
-            ,<img
+            <img
               src="https://i.pravatar.cc/300"
               alt="Random avatar"
               class="Profile image"
@@ -252,7 +108,7 @@
                   <div class="modal-body">
                     <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
                     <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
+                    <p>Relationship: Spouse</p>
                     <p>Contact info: 0787651237/0821234567</p>
                   </div>
 
@@ -269,75 +125,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            <img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="#Employee2"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
-
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee2"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee2">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Employee modal -->
+              <!-- End of Employee modal -->
 
             <!-- Button to Open the Modal -->
             <button
@@ -349,11 +137,198 @@
               Delete Employee
             </button>
           </div>
+
+           <!-- The Delete Modal -->
+    <div class="modal" id="DeleteEmployee">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Are you sure you want to delete?</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button class="btn btn-primary">Yes</button>
+            <button class="btn btn-danger">No</button>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
           <!--End of card-->
         </div>
         <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
+          <!--A column for a single card -->
+          <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+           <!--A column for a single card -->
+           <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+         <!--A column for a single card -->
+         <div class="col-sm">
           <!--Here is a card -->
           <div class="card zdepth3">
             <!-- Card profile image-->
@@ -362,7 +337,7 @@
               alt="Random avatar"
               class="Profile image"
               data-toggle="modal"
-              data-target="#Employee3"
+              data-target="Employee1"
             />
             <!-- Card person name -->
             <p class="head">
@@ -373,97 +348,18 @@
             <p class="subhead">Name: Charlie Jansen</p>
             <p class="subhead">Email: Charliejansen@gmail.com</p>
             <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee3"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee3">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Employee modal -->
-
             <!-- Button to Open the Modal -->
             <button
               type="button"
               class="btn btn-primary"
               data-toggle="modal"
-              data-target="#DeleteEmployee"
-            >
-              Delete Employee
-            </button>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            <img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="#Employee4"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
-
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee4"
+              data-target="Employee1"
             >
               More Info
             </button>
 
             <!-- The Modal -->
-            <div class="modal" id="Employee4">
+            <div class="modal" id="Employee1">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <!-- Modal Header -->
@@ -478,7 +374,7 @@
                   <div class="modal-body">
                     <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
                     <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
+                    <p>Relationship: Spouse</p>
                     <p>Contact info: 0787651237/0821234567</p>
                   </div>
 
@@ -495,7 +391,7 @@
                 </div>
               </div>
             </div>
-            <!-- End of Employee modal -->
+              <!-- End of Employee modal -->
 
             <!-- Button to Open the Modal -->
             <button
@@ -523,7 +419,7 @@
           <!--Here is a card -->
           <div class="card zdepth3">
             <!-- Card profile image-->
-            ,<img
+            <img
               src="https://i.pravatar.cc/300"
               alt="Random avatar"
               class="Profile image"
@@ -565,7 +461,7 @@
                   <div class="modal-body">
                     <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
                     <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
+                    <p>Relationship: Spouse</p>
                     <p>Contact info: 0787651237/0821234567</p>
                   </div>
 
@@ -582,75 +478,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            <img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="#Employee2"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
-
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee2"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee2">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Employee modal -->
+              <!-- End of Employee modal -->
 
             <!-- Button to Open the Modal -->
             <button
@@ -662,489 +490,9 @@
               Delete Employee
             </button>
           </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            <img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="#Employee3"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
 
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee3"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee3">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Employee modal -->
-
-            <!-- Button to Open the Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#DeleteEmployee"
-            >
-              Delete Employee
-            </button>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            <img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="#Employee4"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
-
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee4"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee4">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Employee modal -->
-
-            <!-- Button to Open the Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#DeleteEmployee"
-            >
-              Delete Employee
-            </button>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-      </div>
-      <!-- End of row -->
-    </div>
-    <!-- End of container-->
-
-    <!--container for my cards-->
-    <div class="container">
-      <div class="row">
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            ,<img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="Employee9"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
-
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="Employee9"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee9">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            <img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="#Employee10"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
-
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee10"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee10">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                    a
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Employee modal -->
-
-            <!-- Button to Open the Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#DeleteEmployee"
-            >
-              Delete Employee
-            </button>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            <img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="#Employee11"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
-
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee11"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee11">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Employee modal -->
-
-            <!-- Button to Open the Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#DeleteEmployee"
-            >
-              Delete Employee
-            </button>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-        <!--A column for a single card -->
-        <div class="col-sm">
-          <!--Here is a card -->
-          <div class="card zdepth3">
-            <!-- Card profile image-->
-            <img
-              src="https://i.pravatar.cc/300"
-              alt="Random avatar"
-              class="Profile image"
-              data-toggle="modal"
-              data-target="#Employee12"
-            />
-            <!-- Card person name -->
-            <p class="head">
-              Employee
-            </p>
-
-            <!--Extra info stuff -->
-            <p class="subhead">Name: Charlie Jansen</p>
-            <p class="subhead">Email: Charliejansen@gmail.com</p>
-            <p class="subhead">Number: 0987654321/0821234567</p>
-            <!-- Button to Open the Employee Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#Employee12"
-            >
-              More Info
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal" id="Employee12">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title">Employee Info</h4>
-                    <button type="button" class="close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
-                    <p>NOK: Riefqah Motitki</p>
-                    <p>Relationship: Wife</p>
-                    <p>Contact info: 0787651237/0821234567</p>
-                  </div>
-
-                  <!-- Modal footer -->
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End of Employee modal -->
-
-            <!-- Button to Open the Modal -->
-            <button
-              type="button"
-              class="btn btn-primary"
-              data-toggle="modal"
-              data-target="#DeleteEmployee"
-            >
-              Delete Employee
-            </button>
-          </div>
-          <!--End of card-->
-        </div>
-        <!--End of single column -->
-      </div>
-      <!-- End of row -->
-    </div>
-
-    <!--Place for extra modals -->
-
-    <!-- The Delete Modal -->
-    <div class="modal" id="#DeleteEmployee">
+           <!-- The Delete Modal -->
+    <div class="modal" id="DeleteEmployee">
       <div class="modal-dialog">
         <div class="modal-content">
           <!-- Modal Header -->
@@ -1170,21 +518,2065 @@
         </div>
       </div>
     </div>
+
+          <!--End of card-->
+        </div>
+        <!--End of single column -->
+          <!--A column for a single card -->
+          <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+           <!--A column for a single card -->
+           <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+         <!--A column for a single card -->
+         <div class="col-sm">
+          <!--Here is a card -->
+          <div class="card zdepth3">
+            <!-- Card profile image-->
+            <img
+              src="https://i.pravatar.cc/300"
+              alt="Random avatar"
+              class="Profile image"
+              data-toggle="modal"
+              data-target="Employee1"
+            />
+            <!-- Card person name -->
+            <p class="head">
+              Employee
+            </p>
+
+            <!--Extra info stuff -->
+            <p class="subhead">Name: Charlie Jansen</p>
+            <p class="subhead">Email: Charliejansen@gmail.com</p>
+            <p class="subhead">Number: 0987654321/0821234567</p>
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="Employee1"
+            >
+              More Info
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="Employee1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Employee Info</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                    <p>NOK: Riefqah Motitki</p>
+                    <p>Relationship: Spouse</p>
+                    <p>Contact info: 0787651237/0821234567</p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Employee modal -->
+
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#DeleteEmployee"
+            >
+              Delete Employee
+            </button>
+          </div>
+          <!--End of card-->
+        </div>
+        <!--End of single column -->
+      </div>
+      <!-- End of row -->
+    </div>
+    <!--End of container -->
+
+     <!--container for my cards-->
+     <div class="container">
+      <div class="row">
+        <!--A column for a single card -->
+        <div class="col-sm">
+          <!--Here is a card -->
+          <div class="card zdepth3">
+            <!-- Card profile image-->
+            <img
+              src="https://i.pravatar.cc/300"
+              alt="Random avatar"
+              class="Profile image"
+              data-toggle="modal"
+              data-target="Employee1"
+            />
+            <!-- Card person name -->
+            <p class="head">
+              Employee
+            </p>
+
+            <!--Extra info stuff -->
+            <p class="subhead">Name: Charlie Jansen</p>
+            <p class="subhead">Email: Charliejansen@gmail.com</p>
+            <p class="subhead">Number: 0987654321/0821234567</p>
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="Employee1"
+            >
+              More Info
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="Employee1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Employee Info</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                    <p>NOK: Riefqah Motitki</p>
+                    <p>Relationship: Spouse</p>
+                    <p>Contact info: 0787651237/0821234567</p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Employee modal -->
+
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#DeleteEmployee"
+            >
+              Delete Employee
+            </button>
+          </div>
+
+           <!-- The Delete Modal -->
+    <div class="modal" id="DeleteEmployee">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Are you sure you want to delete?</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button class="btn btn-primary">Yes</button>
+            <button class="btn btn-danger">No</button>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+          <!--End of card-->
+        </div>
+        <!--End of single column -->
+          <!--A column for a single card -->
+          <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+           <!--A column for a single card -->
+           <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+         <!--A column for a single card -->
+         <div class="col-sm">
+          <!--Here is a card -->
+          <div class="card zdepth3">
+            <!-- Card profile image-->
+            <img
+              src="https://i.pravatar.cc/300"
+              alt="Random avatar"
+              class="Profile image"
+              data-toggle="modal"
+              data-target="Employee1"
+            />
+            <!-- Card person name -->
+            <p class="head">
+              Employee
+            </p>
+
+            <!--Extra info stuff -->
+            <p class="subhead">Name: Charlie Jansen</p>
+            <p class="subhead">Email: Charliejansen@gmail.com</p>
+            <p class="subhead">Number: 0987654321/0821234567</p>
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="Employee1"
+            >
+              More Info
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="Employee1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Employee Info</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                    <p>NOK: Riefqah Motitki</p>
+                    <p>Relationship: Spouse</p>
+                    <p>Contact info: 0787651237/0821234567</p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Employee modal -->
+
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#DeleteEmployee"
+            >
+              Delete Employee
+            </button>
+          </div>
+          <!--End of card-->
+        </div>
+        <!--End of single column -->
+      </div>
+      <!-- End of row -->
+    </div>
+    <!--End of container -->
+
+       <!--container for my cards-->
+       <div class="container">
+        <div class="row">
+          <!--A column for a single card -->
+          <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+  
+             <!-- The Delete Modal -->
+      <div class="modal" id="DeleteEmployee">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Are you sure you want to delete?</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+  
+            <!-- Modal body -->
+            <div class="modal-body">
+              <button class="btn btn-primary">Yes</button>
+              <button class="btn btn-danger">No</button>
+            </div>
+  
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+            <!--A column for a single card -->
+            <div class="col-sm">
+              <!--Here is a card -->
+              <div class="card zdepth3">
+                <!-- Card profile image-->
+                <img
+                  src="https://i.pravatar.cc/300"
+                  alt="Random avatar"
+                  class="Profile image"
+                  data-toggle="modal"
+                  data-target="Employee1"
+                />
+                <!-- Card person name -->
+                <p class="head">
+                  Employee
+                </p>
+    
+                <!--Extra info stuff -->
+                <p class="subhead">Name: Charlie Jansen</p>
+                <p class="subhead">Email: Charliejansen@gmail.com</p>
+                <p class="subhead">Number: 0987654321/0821234567</p>
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="Employee1"
+                >
+                  More Info
+                </button>
+    
+                <!-- The Modal -->
+                <div class="modal" id="Employee1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Employee Info</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                          &times;
+                        </button>
+                      </div>
+    
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                        <p>NOK: Riefqah Motitki</p>
+                        <p>Relationship: Spouse</p>
+                        <p>Contact info: 0787651237/0821234567</p>
+                      </div>
+    
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- End of Employee modal -->
+    
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#DeleteEmployee"
+                >
+                  Delete Employee
+                </button>
+              </div>
+              <!--End of card-->
+            </div>
+            <!--End of single column -->
+             <!--A column for a single card -->
+             <div class="col-sm">
+              <!--Here is a card -->
+              <div class="card zdepth3">
+                <!-- Card profile image-->
+                <img
+                  src="https://i.pravatar.cc/300"
+                  alt="Random avatar"
+                  class="Profile image"
+                  data-toggle="modal"
+                  data-target="Employee1"
+                />
+                <!-- Card person name -->
+                <p class="head">
+                  Employee
+                </p>
+    
+                <!--Extra info stuff -->
+                <p class="subhead">Name: Charlie Jansen</p>
+                <p class="subhead">Email: Charliejansen@gmail.com</p>
+                <p class="subhead">Number: 0987654321/0821234567</p>
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="Employee1"
+                >
+                  More Info
+                </button>
+    
+                <!-- The Modal -->
+                <div class="modal" id="Employee1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Employee Info</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                          &times;
+                        </button>
+                      </div>
+    
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                        <p>NOK: Riefqah Motitki</p>
+                        <p>Relationship: Spouse</p>
+                        <p>Contact info: 0787651237/0821234567</p>
+                      </div>
+    
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- End of Employee modal -->
+    
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#DeleteEmployee"
+                >
+                  Delete Employee
+                </button>
+              </div>
+              <!--End of card-->
+            </div>
+            <!--End of single column -->
+           <!--A column for a single card -->
+           <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+        </div>
+        <!-- End of row -->
+      </div>
+      <!--End of container -->
+
+         <!--container for my cards-->
+    <div class="container">
+      <div class="row">
+        <!--A column for a single card -->
+        <div class="col-sm">
+          <!--Here is a card -->
+          <div class="card zdepth3">
+            <!-- Card profile image-->
+            <img
+              src="https://i.pravatar.cc/300"
+              alt="Random avatar"
+              class="Profile image"
+              data-toggle="modal"
+              data-target="Employee1"
+            />
+            <!-- Card person name -->
+            <p class="head">
+              Employee
+            </p>
+
+            <!--Extra info stuff -->
+            <p class="subhead">Name: Charlie Jansen</p>
+            <p class="subhead">Email: Charliejansen@gmail.com</p>
+            <p class="subhead">Number: 0987654321/0821234567</p>
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="Employee1"
+            >
+              More Info
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="Employee1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Employee Info</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                    <p>NOK: Riefqah Motitki</p>
+                    <p>Relationship: Spouse</p>
+                    <p>Contact info: 0787651237/0821234567</p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Employee modal -->
+
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#DeleteEmployee"
+            >
+              Delete Employee
+            </button>
+          </div>
+
+           <!-- The Delete Modal -->
+    <div class="modal" id="DeleteEmployee">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Are you sure you want to delete?</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button class="btn btn-primary">Yes</button>
+            <button class="btn btn-danger">No</button>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+          <!--End of card-->
+        </div>
+        <!--End of single column -->
+          <!--A column for a single card -->
+          <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+           <!--A column for a single card -->
+           <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+         <!--A column for a single card -->
+         <div class="col-sm">
+          <!--Here is a card -->
+          <div class="card zdepth3">
+            <!-- Card profile image-->
+            <img
+              src="https://i.pravatar.cc/300"
+              alt="Random avatar"
+              class="Profile image"
+              data-toggle="modal"
+              data-target="Employee1"
+            />
+            <!-- Card person name -->
+            <p class="head">
+              Employee
+            </p>
+
+            <!--Extra info stuff -->
+            <p class="subhead">Name: Charlie Jansen</p>
+            <p class="subhead">Email: Charliejansen@gmail.com</p>
+            <p class="subhead">Number: 0987654321/0821234567</p>
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="Employee1"
+            >
+              More Info
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="Employee1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Employee Info</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                    <p>NOK: Riefqah Motitki</p>
+                    <p>Relationship: Spouse</p>
+                    <p>Contact info: 0787651237/0821234567</p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Employee modal -->
+
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#DeleteEmployee"
+            >
+              Delete Employee
+            </button>
+          </div>
+          <!--End of card-->
+        </div>
+        <!--End of single column -->
+      </div>
+      <!-- End of row -->
+    </div>
+    <!--End of container -->
+
+       <!--container for my cards-->
+       <div class="container">
+        <div class="row">
+          <!--A column for a single card -->
+          <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+  
+             <!-- The Delete Modal -->
+      <div class="modal" id="DeleteEmployee">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Are you sure you want to delete?</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+  
+            <!-- Modal body -->
+            <div class="modal-body">
+              <button class="btn btn-primary">Yes</button>
+              <button class="btn btn-danger">No</button>
+            </div>
+  
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+            <!--A column for a single card -->
+            <div class="col-sm">
+              <!--Here is a card -->
+              <div class="card zdepth3">
+                <!-- Card profile image-->
+                <img
+                  src="https://i.pravatar.cc/300"
+                  alt="Random avatar"
+                  class="Profile image"
+                  data-toggle="modal"
+                  data-target="Employee1"
+                />
+                <!-- Card person name -->
+                <p class="head">
+                  Employee
+                </p>
+    
+                <!--Extra info stuff -->
+                <p class="subhead">Name: Charlie Jansen</p>
+                <p class="subhead">Email: Charliejansen@gmail.com</p>
+                <p class="subhead">Number: 0987654321/0821234567</p>
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="Employee1"
+                >
+                  More Info
+                </button>
+    
+                <!-- The Modal -->
+                <div class="modal" id="Employee1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Employee Info</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                          &times;
+                        </button>
+                      </div>
+    
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                        <p>NOK: Riefqah Motitki</p>
+                        <p>Relationship: Spouse</p>
+                        <p>Contact info: 0787651237/0821234567</p>
+                      </div>
+    
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- End of Employee modal -->
+    
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#DeleteEmployee"
+                >
+                  Delete Employee
+                </button>
+              </div>
+              <!--End of card-->
+            </div>
+            <!--End of single column -->
+             <!--A column for a single card -->
+             <div class="col-sm">
+              <!--Here is a card -->
+              <div class="card zdepth3">
+                <!-- Card profile image-->
+                <img
+                  src="https://i.pravatar.cc/300"
+                  alt="Random avatar"
+                  class="Profile image"
+                  data-toggle="modal"
+                  data-target="Employee1"
+                />
+                <!-- Card person name -->
+                <p class="head">
+                  Employee
+                </p>
+    
+                <!--Extra info stuff -->
+                <p class="subhead">Name: Charlie Jansen</p>
+                <p class="subhead">Email: Charliejansen@gmail.com</p>
+                <p class="subhead">Number: 0987654321/0821234567</p>
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="Employee1"
+                >
+                  More Info
+                </button>
+    
+                <!-- The Modal -->
+                <div class="modal" id="Employee1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Employee Info</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                          &times;
+                        </button>
+                      </div>
+    
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                        <p>NOK: Riefqah Motitki</p>
+                        <p>Relationship: Spouse</p>
+                        <p>Contact info: 0787651237/0821234567</p>
+                      </div>
+    
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- End of Employee modal -->
+    
+                <!-- Button to Open the Modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#DeleteEmployee"
+                >
+                  Delete Employee
+                </button>
+              </div>
+              <!--End of card-->
+            </div>
+            <!--End of single column -->
+           <!--A column for a single card -->
+           <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+        </div>
+        <!-- End of row -->
+      </div>
+      <!--End of container -->
+  
+         <!--container for my cards-->
+    <div class="container">
+      <div class="row">
+        <!--A column for a single card -->
+        <div class="col-sm">
+          <!--Here is a card -->
+          <div class="card zdepth3">
+            <!-- Card profile image-->
+            <img
+              src="https://i.pravatar.cc/300"
+              alt="Random avatar"
+              class="Profile image"
+              data-toggle="modal"
+              data-target="Employee1"
+            />
+            <!-- Card person name -->
+            <p class="head">
+              Employee
+            </p>
+
+            <!--Extra info stuff -->
+            <p class="subhead">Name: Charlie Jansen</p>
+            <p class="subhead">Email: Charliejansen@gmail.com</p>
+            <p class="subhead">Number: 0987654321/0821234567</p>
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="Employee1"
+            >
+              More Info
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="Employee1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Employee Info</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                    <p>NOK: Riefqah Motitki</p>
+                    <p>Relationship: Spouse</p>
+                    <p>Contact info: 0787651237/0821234567</p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Employee modal -->
+
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#DeleteEmployee"
+            >
+              Delete Employee
+            </button>
+          </div>
+
+           <!-- The Delete Modal -->
+    <div class="modal" id="DeleteEmployee">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Are you sure you want to delete?</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button class="btn btn-primary">Yes</button>
+            <button class="btn btn-danger">No</button>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+          <!--End of card-->
+        </div>
+        <!--End of single column -->
+          <!--A column for a single card -->
+          <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+           <!--A column for a single card -->
+           <div class="col-sm">
+            <!--Here is a card -->
+            <div class="card zdepth3">
+              <!-- Card profile image-->
+              <img
+                src="https://i.pravatar.cc/300"
+                alt="Random avatar"
+                class="Profile image"
+                data-toggle="modal"
+                data-target="Employee1"
+              />
+              <!-- Card person name -->
+              <p class="head">
+                Employee
+              </p>
+  
+              <!--Extra info stuff -->
+              <p class="subhead">Name: Charlie Jansen</p>
+              <p class="subhead">Email: Charliejansen@gmail.com</p>
+              <p class="subhead">Number: 0987654321/0821234567</p>
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="Employee1"
+              >
+                More Info
+              </button>
+  
+              <!-- The Modal -->
+              <div class="modal" id="Employee1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Employee Info</h4>
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+  
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                      <p>NOK: Riefqah Motitki</p>
+                      <p>Relationship: Spouse</p>
+                      <p>Contact info: 0787651237/0821234567</p>
+                    </div>
+  
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-danger"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!-- End of Employee modal -->
+  
+              <!-- Button to Open the Modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#DeleteEmployee"
+              >
+                Delete Employee
+              </button>
+            </div>
+            <!--End of card-->
+          </div>
+          <!--End of single column -->
+         <!--A column for a single card -->
+         <div class="col-sm">
+          <!--Here is a card -->
+          <div class="card zdepth3">
+            <!-- Card profile image-->
+            <img
+              src="https://i.pravatar.cc/300"
+              alt="Random avatar"
+              class="Profile image"
+              data-toggle="modal"
+              data-target="Employee1"
+            />
+            <!-- Card person name -->
+            <p class="head">
+              Employee
+            </p>
+
+            <!--Extra info stuff -->
+            <p class="subhead">Name: Charlie Jansen</p>
+            <p class="subhead">Email: Charliejansen@gmail.com</p>
+            <p class="subhead">Number: 0987654321/0821234567</p>
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="Employee1"
+            >
+              More Info
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="Employee1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Employee Info</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <p>Adrress: 26 Rest Road, Athlone, Cape Town</p>
+                    <p>NOK: Riefqah Motitki</p>
+                    <p>Relationship: Spouse</p>
+                    <p>Contact info: 0787651237/0821234567</p>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- End of Employee modal -->
+
+            <!-- Button to Open the Modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#DeleteEmployee"
+            >
+              Delete Employee
+            </button>
+          </div>
+          <!--End of card-->
+        </div>
+        <!--End of single column -->
+      </div>
+      <!-- End of row -->
+    </div>
+    <!--End of container -->
+
+    <!--Place for extra modals -->
+
+    <!-- The Delete Modal -->
+    <div class="modal" id="DeleteEmployee">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Are you sure you want to delete?</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <button class="btn btn-primary">Yes</button>
+            <button class="btn btn-danger">No</button>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--script import before closing body tags-->
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@116.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtnI3UksdQRVvoxMfooAo"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj003uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl30g8ifwB6"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+
+   
   </body>
 </html>
