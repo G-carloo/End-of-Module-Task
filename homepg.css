@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper > * {
+  padding: 20px;
+}
+
+.main {
+  flex-grow: 1;
+  background-color: red;
+
+  display: flex;
+  padding: 5% 5%;
+}
+
+.card {
+  border: 1px solid black;
+  width: 33%;
+  height: 200px;
+}
+
+.footer {
+  background-color: yellow;
+  position: relative;
+}
+
+/* Navbar */
+.navbar {
+  overflow: initial;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: red;
+}
+
+.search-container {
+  float: inline-end;
+}
